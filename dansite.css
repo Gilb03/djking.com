@@ -1,0 +1,37 @@
+      footer {
+      background-color: #003366;
+      color: white;
+      padding: 1rem;
+      float: bottom;
+      text-align: center;
+      width: 100%;
+      margin: 100px;
+
+    }
+
+  p{
+  	white-space: nowrap;
+  }
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.navbar {
+	background-color: 0099cc;
+}
+
+html, body {
+background: url('danInChina.jpeg');
+background-size: cover;
+-webkit-background-size: cover;
+font-family: 'Merriweather', sans-serif;
+color: black;
+}
+
+h1{
+	margin: 50px auto;
+}
