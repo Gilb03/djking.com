@@ -1,37 +1,49 @@
-      footer {
-      background-color: #003366;
-      color: white;
-      padding: 1rem;
-      float: bottom;
-      text-align: center;
-      width: 100%;
-      margin: 100px;
-
-    }
 
   p{
   	white-space: nowrap;
+    color:white;
   }
 
-.container-fluid {
+.container {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: auto;
   padding-left: 15px;
   padding-right: 15px;
 }
+ .circular-image {
+border-radius:  60%;
+}
+.fa-fa {
+
+}
+
 .navbar {
-	background-color: 0099cc;
+	background-color: #eff8fa;
 }
 
 html, body {
-background: url('danInChina.jpeg');
+background: url('./danbackground.jpeg');
 background-size: cover;
--webkit-background-size: cover;
+background-position: center;
 font-family: 'Merriweather', sans-serif;
 color: black;
 }
+#content {
+ text-align: center;  
+}
 
-h1{
+
+footer{
+  width: 100%;
+  padding-top: 10%;
+}
+
+h1 {
+  padding-top:3%;
+  color: white;
+}
+h3{
 	margin: 50px auto;
+  color: white;
 }
